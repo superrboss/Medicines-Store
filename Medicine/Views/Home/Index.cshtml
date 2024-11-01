@@ -1,0 +1,37 @@
+﻿    @model IEnumerable<Medicine.Data.Medicine>
+@{
+    ViewData["Title"] = "Home";
+}
+
+@if (!Model.Any())
+{
+    <div class="alert alert-warning">
+        <h4 class="alert-heading">Warning!</h4>
+        <p class="mb-0">No Medicines Exists! </p>
+    </div>
+}
+
+<div class="row mt-5">
+    @foreach (var Medicine in Model)
+    {
+        <div class="col-lg-4 col-md-6">
+            <a class="card border-success mb-3 text-decoration-none rounded-3 overflow-hidden" asp-controller="Medicine" asp-action="Details" asp-route-id="@Medicine.Id">
+                <div class="card-body" style="background-image:url(@($"/Assests/Images/Medicine/{Medicine.Cover}")); background-size:cover; background-position:center; height:400px">
+
+                    <div class="d-flex align-items-end h-100">
+                        <span class="badge bg-secondary rounded-0 fs-3">@Medicine.Category?.Name</span>
+                    </div>
+                </div>
+                <div class="card-footer text-muted d-flex justify-content-between align-items-center">
+                    <h5>@Medicine.Name</h5>
+                @*  <div>
+                  @foreach (var Category in Medicine.Category.Name)
+                 {
+                             <p>Category</p>
+                 }
+                 </div> *@ 
+                </div>
+            </a>
+        </div>
+    }
+</div>
