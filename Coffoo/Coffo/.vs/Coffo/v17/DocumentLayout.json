@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NestAsp\\Coffoo\\Coffo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{847EBF3D-4920-472F-971C-61CEEE996B6D}|Coffo\\Coffo.csproj|d:\\.nestasp\\coffoo\\coffo\\coffo\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{847EBF3D-4920-472F-971C-61CEEE996B6D}|Coffo\\Coffo.csproj|solutionrelative:coffo\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\.NestAsp\\Coffoo\\Coffo\\Coffo\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Coffo\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\.NestAsp\\Coffoo\\Coffo\\Coffo\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Coffo\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAACIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T10:57:41.333Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
